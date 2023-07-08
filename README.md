@@ -27,9 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Web View](./assets/webpage-ss (1).jpeg)
-![Web View - error](./assets/webpage-ss (2).jpeg)
-![Mobile View -error](./assets/webpage-ss (3).jpeg)
+![Web View](./assets/Screenshot1.png)
+![Web View - error](./assets/Screenshot2.png)
+![Mobile View ](./assets/Screenshot3.png)
+![Mobile View -error](./assets/Screenshot4.png)
 
 
 
