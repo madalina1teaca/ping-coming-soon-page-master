@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/madalina1teaca/ping-coming-soon-page-master)
-- Live Site URL: ([https://your-live-site-url.com](https://mt-ping-coming-soon-page-master.netlify.app/))
+- Live Site URL: (https://mt-ping-coming-soon-page-master.netlify.app/)
 
 ## My process
 
