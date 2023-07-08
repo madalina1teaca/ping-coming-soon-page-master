@@ -27,9 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/webpage-ss (1).jpg)
-![](./assets/webpage-ss (2).jpg)
-![](./assets/webpage-ss (3).jpg)
+![](./assets/webpage-ss (1).jpeg)
+![](./assets/webpage-ss (2).jpeg)
+![](./assets/webpage-ss (3).jpeg)
 
 
 
