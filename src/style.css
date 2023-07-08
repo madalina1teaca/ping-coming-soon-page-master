@@ -131,8 +131,8 @@ body {
 
 .notify-form .error_text {
     position: absolute;
-    top: 3rem;
-    font-size: 0.95rem;
+    top: 2rem;
+    font-size: 0.8rem;
     margin-top: 10px;
     color: var(--clr-sec-600);
     font-style: italic;
