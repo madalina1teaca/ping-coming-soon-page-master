@@ -27,15 +27,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshot01.jpg)
-![](./assets/screenshot01.jpg)
-![](./assets/screenshot01.jpg)
+![](./assets/webpage-ss (1).jpg)
+![](./assets/webpage-ss (2).jpg)
+![](./assets/webpage-ss (3).jpg)
+
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/madalina1teaca/ping-coming-soon-page-master)
+- Live Site URL: ([https://your-live-site-url.com](https://mt-ping-coming-soon-page-master.netlify.app/))
 
 ## My process
 
