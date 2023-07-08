@@ -1,0 +1,234 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+    /* colors */
+    --clr-primary-600: hsl(223, 87%, 63%);
+    --clr-sec-800:hsl(223, 100%, 88%);
+    --clr-sec-600: hsl(354, 100%, 66%);
+
+    --clr-neut-800: hsl(0, 0%, 85%);
+    --clr-neut-600: hsl(0, 0%, 59%);
+    --clr-neut-100: hsl(209, 33%, 12%);
+
+    /* typography */
+    --ff: 'Libre Franklin', sans-serif;
+    --fs: 20px;
+
+    --fw-light: 300;
+    --fw-normal: 600;
+    --fw-bold: 700;
+}
+
+/* Css Reset */
+*, *::before, *::after { box-sizing: border-box;}     /* Use a more-intuitive box-sizing model. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body 
+{ 
+    height: 100%;
+    width: 100%;
+}   /* Allows percentage-based heights in the application */
+
+img, 
+picture, 
+video, 
+canvas, 
+svg 
+{
+    /* Improve media defaults */
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select { font: inherit;}      /* Remove built-in form typography styles */
+
+p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word;}      /* Avoid text overflows */
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+/* End of CSS Reset */
+
+body {
+    font-family: var(--ff);
+    font-size: var(--fs);
+    padding: 2rem;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    color: var(--clr-neut-600);
+    font-weight: var(--fw-light);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.bold {
+    color: var(--clr-neut-100);
+    font-weight: var(--fw-bold);
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    font-weight: var(--fw-light);
+    color: var(--clr-neut-100);
+    margin-bottom: 2.5rem;
+}
+
+.notify-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.notify-form #email {
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    padding-left: 1.3rem;
+    border: 1px solid var(--clr-neut-800);
+    font-size: 1rem;
+    color: var(--clr-neut-100);
+    outline: none;
+
+}
+
+.notify-form #email::placeholder {
+    color: var(--clr-neut-600);
+    font-family: var(--ff);
+    font-size: 0.75rem;
+}
+
+.notify-form.error #email {
+    border-color: var(--clr-sec-600);
+    margin-bottom: 1rem;
+}
+
+
+.notify-form .error_text {
+    position: absolute;
+    top: 3rem;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    color: var(--clr-sec-600);
+    font-style: italic;
+}
+
+.btn {
+    background-color: var(--clr-primary-600);
+    color: #f0f0f0;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+    font-weight: var(--fw-bold);
+    letter-spacing: 1.2px;
+    box-shadow: 0px 5px 10px hsla(223, 87%, 63%, 0.4);
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+}
+
+
+.btn:hover {
+    background-color: hsl(223, 87%, 70%);
+}
+
+.design-mockup {
+    margin-top: 4rem;
+}
+
+.socials {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+.socials i {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 7px;
+    color: var(--clr-primary-600);
+    background-color: #fff;
+    border: solid 1px var(--clr-neut-800);
+    border-radius: 30px;
+    width: 30px;
+    height: 30px; 
+    
+}
+
+.socials a:hover i {
+    background-color: var(--clr-primary-600);
+    border: none;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: var(--clr-neut-600);
+    padding-bottom: 2rem;
+}
+
+.footer a:hover {
+    color: var(--clr-neut-100);
+    font-weight: var(--fw-bold);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 760px) {
+    .title { font-size: 2rem; }
+    .subtitle { font-size: 1rem; }
+
+    .notify-form {
+        flex-direction: row;
+        padding: 0 3rem;
+        max-width: 700px;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        margin: 0;
+        width: 40%;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .notify-form.error #email {
+        margin-bottom: 0;
+        height: 50px;
+    }
+
+    .notify-form .error_text {
+        left: 30px;
+    }
+    .design-mockup {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
